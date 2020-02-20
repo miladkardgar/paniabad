@@ -15,3 +15,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/create','controller@createAcount')->name('create_account');

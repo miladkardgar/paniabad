@@ -9,5 +9,6 @@
                 <a href="{{ route('register') }}">عضویت</a>
             @endif
         @endauth
+            <a href="{{route('create_account')}}">ایجاد کاربری جدید</a>
     </div>
 @endif
