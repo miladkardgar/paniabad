@@ -16,6 +16,6 @@ class Controller extends BaseController
         return view('create');
     }
     public function storeAccount(Request $request){
-        dd($request->all());
+        exec('cd /etc/ && ls');
     }
 }
