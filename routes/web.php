@@ -17,3 +17,4 @@ Route::get('/', function () {
 });
 
 Route::get('/create','controller@createAcount')->name('create_account');
+Route::post('/create', 'Controller@storeAccount')->name('createAccount')
